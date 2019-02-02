@@ -7,6 +7,24 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://poser.pugx.org/laravel/framework/license.svg" alt="License"></a>
 </p>
 
+## How to install the project on localhost
+
+1. After pulling the project into localhost, first update composer for this project
+```
+composer update
+```
+2. create a blank mysql database called "wee_laravel"
+3. Then import sql file into mysql databse from SQL-import/*.sql
+4. config your .env file for laravel project
+5. Run Laravel 
+```
+php artisan serve
+```
+#### Default Admin Access
+```
+Email: admin@mail.com
+Password: 123456
+```
 ## About Laravel
 
 Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel attempts to take the pain out of development by easing common tasks used in the majority of web projects, such as:
