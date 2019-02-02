@@ -19,13 +19,13 @@
                 <form method="POST" action="{{ route('login') }}">
                     @csrf
                     <div class="login_group">
-                        <input id="email" type="email" class="login_control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus placeholder="Username">
+                        <input id="email" type="email" class="login_control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="email" value="{{ old('email') }}" required autofocus placeholder="Email (admin@mail.com)">
 
                         
 
                     </div>
                     <div class="login_group">
-                        <input id="email" type="password" class="login_control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="password" value="{{ old('email') }}" required autofocus placeholder="Password">
+                        <input id="email" type="password" class="login_control{{ $errors->has('email') ? ' is-invalid' : '' }}" name="password" value="{{ old('email') }}" required autofocus placeholder="Password (123456)">
 
                     </div>
                     <div class="login_group">
